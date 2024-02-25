@@ -21,3 +21,12 @@ variable "sample_list" {
     true
   ]
 }
+#dictionary variable
+
+variable "sample_dict" {
+  default = {
+    number = 100
+    boolean = true
+    message = "hello"
+  }
+}

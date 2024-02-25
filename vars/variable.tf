@@ -30,3 +30,5 @@ variable "sample_dict" {
     message = "hello"
   }
 }
+
+variable "env" {}

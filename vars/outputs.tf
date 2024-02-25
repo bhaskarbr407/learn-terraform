@@ -11,9 +11,9 @@ output "sample_list2" {
 }
 
 output "sample_dict_mes" {
-  value = var.sample_dict[message]
+  value = var.sample_dict["message"]
 }
 
 output "sample_dict_bool" {
-  value = var.sample_dict[boolean]
+  value = var.sample_dict["boolean"]
 }

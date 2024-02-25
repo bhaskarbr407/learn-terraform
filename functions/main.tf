@@ -18,3 +18,7 @@ variable "sample2"{
 output "sample1" {
   value = element(var.sample1, 0)
 }
+
+output "sample2" {
+  value = lookup(var.sample2, "a1", "robo")
+}

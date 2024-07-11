@@ -6,3 +6,6 @@ resource "aws_instance" "web" {
     Name = "HelloWorld"
   }
 }
+output "frontend" {
+  value = aws_instance.web.instance_type
+}

@@ -3,6 +3,9 @@ default = "hello world"
 }
 
 #boolean and numbers no need to quote in double quotes,its doesn't support single quotes
+output "sample_string" {
+  value = var.sample_string
+}
 
 variable "sample_number" {
   default = 100
